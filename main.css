@@ -1,0 +1,31 @@
+li {
+	background-color: silver;
+	font-color: gray;
+}
+
+li:first-child {
+	border-radius: 5px;
+}
+
+.silver {
+	color: #777;
+	font-size: 14px;
+	font-weight: bold;
+	border: solid 1px silver;
+	background: silver;
+	background: -webkit-gradient(linear, left top, left bottom, from(white), to(silver));
+	background: -moz-linear-gradient(top,  white,  silver);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+}
+.silver:hover {
+	background: silver;
+	background: -webkit-gradient(linear, left top, left bottom, from(white), to(silver));
+	background: -moz-linear-gradient(top,  white,  silver);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
+}
+.silver:active {
+	color: silver;
+	background: -webkit-gradient(linear, left top, left bottom, from(white), to(silver));
+	background: -moz-linear-gradient(top,  white,  silver);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
+}
